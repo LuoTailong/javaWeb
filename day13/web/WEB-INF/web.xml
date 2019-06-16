@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+           version="2.5">
+
+    <servlet>
+        <servlet-name>CookieServlet1</servlet-name>
+        <servlet-class>web.CookieServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet1</servlet-name>
+        <url-pattern>/cookieServlet1</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CookieServlet2</servlet-name>
+        <servlet-class>web.CookieServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet2</servlet-name>
+        <url-pattern>/car/cookieServlet2</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CookieServlet3</servlet-name>
+        <servlet-class>web.CookieServlet3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet3</servlet-name>
+        <url-pattern>/cookieServlet3</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CookieServlet4</servlet-name>
+        <servlet-class>web.CookieServlet4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet4</servlet-name>
+        <url-pattern>/cookieServlet4</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CookieServlet5</servlet-name>
+        <servlet-class>web.CookieServlet5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CookieServlet5</servlet-name>
+        <url-pattern>/cookieServlet5</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SessionServlet1</servlet-name>
+        <servlet-class>web.SessionServlet1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet1</servlet-name>
+        <url-pattern>/sessionServlet1</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SessionServlet2</servlet-name>
+        <servlet-class>web.SessionServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet2</servlet-name>
+        <url-pattern>/sessionServlet2</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SessionServlet3</servlet-name>
+        <servlet-class>web.SessionServlet3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SessionServlet3</servlet-name>
+        <url-pattern>/sessionServlet3</url-pattern>
+    </servlet-mapping>
+</web-app>
